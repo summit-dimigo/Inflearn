@@ -1,7 +1,7 @@
 import { FontDisplay } from "expo-font";
 import { Text, View } from "react-native";
 
-export default function Index() {
+export default function Serch() {
   return (
     <View
       style={{
@@ -10,7 +10,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Edit app/home.tsx to edit this sfffff.</Text>
+      <Text>Edit app/activity.tsx to edit this sfffff.</Text>
     </View>
   );
 }
