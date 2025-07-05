@@ -1,16 +1,5 @@
-import { FontDisplay } from "expo-font";
-import { Text, View } from "react-native";
+import { Redirect } from "expo-router";
 
-export default function Index() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Edit app/home.tsx to edit this sfffff.</Text>
-    </View>
-  );
+export default function Home() {
+  return <Redirect href="/(tabs)" />;
 }
